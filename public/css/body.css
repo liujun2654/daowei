@@ -1,0 +1,265 @@
+#content {
+  position: relative;
+  width: 100%;
+  min-width: 1200px;
+}
+#content div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#content div .banner_wrap {
+  position: relative;
+  height: 420px;
+  width: 100%;
+}
+#content div .banner_wrap .slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#content div .banner_wrap .slide .list {
+  position: relative;
+  left: -280px;
+  height: 100%;
+}
+#content div .banner_wrap .slide .list li {
+  position: absolute;
+  list-style: none;
+  opacity: 0;
+  transition: 0.5s;
+}
+#content div .banner_wrap .slide .list li.show {
+  opacity: 1;
+}
+#content div .banner_wrap .slide .list li img {
+  height: 420px;
+  display: block;
+}
+#content div .banner_wrap .point_wrap {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 20px;
+}
+#content div .banner_wrap .point_wrap .point_list {
+  width: 100px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 66;
+}
+#content div .banner_wrap .point_wrap .point_list .point {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #969696;
+  margin: 0 5px;
+}
+#content div .banner_wrap .point_wrap .point_list .point:hover {
+  cursor: pointer;
+}
+#content div .banner_wrap .point_wrap .point_list .point.active {
+  background: #996640;
+}
+#content div .list_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+#content div .list_box .box_wrap {
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+}
+#content div .list_box .box_wrap .box_nav {
+  height: 100%;
+  width: 200px;
+}
+#content div .list_box .box_wrap .box_nav .ul1 {
+  position: relative;
+  height: 100%;
+  background: #757881;
+  z-index: 100;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 {
+  height: 10%;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2:hover > ul {
+  display: block;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 .li2a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 42px;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 .li2a:hover {
+  cursor: pointer;
+  background: #60646d;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 span {
+  position: relative;
+  top: -28px;
+  right: -155px;
+  color: #fff;
+  font-size: 16px;
+  z-index: 100;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 ul {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 160px;
+  height: 420px;
+  display: none;
+  background: rgba(253, 253, 253, 0.9);
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 ul.show {
+  display: block;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 ul li {
+  height: 42px;
+  line-height: 42px;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  padding-left: 45px;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 ul li a {
+  color: #121212;
+  font-weight: bold;
+  font-size: 16px;
+}
+#content div .list_box .box_wrap .box_nav .ul1 .li2 ul li a:hover {
+  color: #fd2e23;
+}
+.box1 {
+  width: 100%;
+  min-width: 1200px;
+}
+.box1 .box1_wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0 0;
+  clear: both;
+}
+.box1 .box1_wrap .box1_inner {
+  width: 100%;
+}
+.box1 .box1_wrap .box1_inner .box1_inner_header {
+  text-align: center;
+}
+.box1 .box1_wrap .box1_inner .box1_inner_header .span1 {
+  display: block;
+  color: #3d3838;
+  font-weight: 800;
+  font-size: 28px;
+  font-family: "Microsoft YaHei";
+}
+.box1 .box1_wrap .box1_inner .box1_inner_header .span2 {
+  display: block;
+  font-family: "幼圆";
+  font-size: 22px;
+  color: #3d3838;
+  margin-top: 15px;
+}
+.box1 .box1_wrap .box1_inner .box1_inner_header .span2 a {
+  color: #3d3838;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_header {
+  text-align: right;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_header .lookmore {
+  position: relative;
+  bottom: 22px;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_header .lookmore a {
+  color: #898989;
+  font-size: 18px;
+  font-family: "幼圆";
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner {
+  overflow: hidden;
+  position: relative;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  box-sizing: border-box;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder {
+  float: left;
+  padding: 10px;
+  width: 230px;
+  border: 1px solid #eaeaea;
+  margin: 0 5px;
+  background: #fff;
+  cursor: pointer;
+  height: 345px;
+  position: relative;
+  min-height: 1px;
+  box-sizing: border-box;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder:hover {
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.5s;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder img {
+  vertical-align: middle;
+  border: 0;
+  width: 210px;
+  height: 210px;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder .serviceName {
+  font-size: 16px;
+  padding: 8px 0;
+  font-weight: 800;
+  color: #000;
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 101%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder .description {
+  color: #929292;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  font-size: 13px;
+  line-height: 18px;
+  height: 50px;
+  box-sizing: border-box;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder .price {
+  font-size: 14px;
+  padding: 5px 5px;
+  font-weight: 600;
+  height: 20px;
+  line-height: 20px;
+  color: #fb474f;
+}
+.box1 .box1_wrap .box1_inner .box1_content .box1_content_inner .ServiceBorder .price .btn {
+  float: right;
+  padding: 0;
+  width: 76px;
+  height: 24px;
+  line-height: 22px;
+  text-align: center;
+  background: #fb474f;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+}

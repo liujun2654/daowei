@@ -1,0 +1,116 @@
+/*头部*/
+#header{
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  background: white;
+}
+#header.on{
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  left: 0px;
+  opacity: 0.9;
+  animation: show 1s ease;
+}
+@-moz-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@-webkit-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@-o-keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+@keyframes show {
+  from {
+    transform: translateY(-100%) rotateX(90deg);
+  }
+  to {
+    transform: translateY(0) rotateX(0);
+  }
+}
+#header .header_wrap{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+#header .header_wrap .header_img{
+  float: left;
+  height: 65px;
+
+}
+#header .header_wrap .header_nav{
+  float: right;
+}
+#header .header_wrap .header_img>a>img,#header .header_wrap .header_img>a{
+  display: block;
+  height: 40px;
+  width: 280px;
+  margin-top: 10px;
+}
+.header_nav{
+  height: 42px;
+  margin-top: 10px;
+}
+.header_nav .nav_list{
+  overflow: hidden;
+  height: 100%;
+}
+.header_nav .nav_list>li{
+  float: left;
+  height: 100%;
+  line-height: 42px;
+}
+.header_nav .nav_list>li:hover a{
+  color: #ca1403;
+}
+.header_nav .nav_list>li>a{
+  color: #4e4e4e;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.header_nav .nav_list li img{
+  vertical-align: middle;
+}
+.header_nav .nav_list>li:first-child{
+  line-height: 42px;
+  margin-right: 20px;
+}
+.header_nav .nav_list>li:first-child>a{
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.header_nav .nav_list>li:last-child>a{
+  box-sizing: border-box;
+  background: #e94840;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.header_nav .nav_list>li>.on{
+  color: red;
+}
+
+
+
+
