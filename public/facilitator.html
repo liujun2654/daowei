@@ -272,6 +272,7 @@
 </script>
 
 <script type="text/javascript">
+  console.log(window.location);
   var serviceId = window.location.search.split('=')[1]
   $(function () {
     console.log(serviceId);
@@ -288,7 +289,7 @@
     //上一页/下一页/1-9
     var num=0;
     //获取评论点击a
-    var $aS = $('.showPage>a')
+    var $aS = $('.showPage>a');
     $aS.each(function (index,item) {
       item.onclick = function () {
         if(this.className){
@@ -342,10 +343,7 @@
       $.get('http://localhost:3001/comment?page='+page,function (data) {
         $('#commentDiv').html(template('temp4',{comment:data}))
       })
-      for (var i=0;i<$aS.length;i++){
-        $($aS[i]).removeClass('ac1')
-      }
-      $($aS[page]).addClass('ac1')
+      $($aS[page]).addClass('ac1').siblings('.ac1').removeClass('ac1')
     }
   })
   function goDetail() {

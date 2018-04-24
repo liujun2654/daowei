@@ -11,10 +11,11 @@
   left: 0px;
   opacity: 0.9;
   animation: show 1s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .12);
 }
 @-moz-keyframes show {
   from {
-    transform: translateY(-100%) rotateX(90deg);
+    transform: translateY(-100%) rotateX(180deg);
   }
   to {
     transform: translateY(0) rotateX(0);
@@ -22,7 +23,7 @@
 }
 @-webkit-keyframes show {
   from {
-    transform: translateY(-100%) rotateX(90deg);
+    transform: translateY(-100%) rotateX(180deg);
   }
   to {
     transform: translateY(0) rotateX(0);
@@ -30,7 +31,7 @@
 }
 @-o-keyframes show {
   from {
-    transform: translateY(-100%) rotateX(90deg);
+    transform: translateY(-100%) rotateX(180deg);
   }
   to {
     transform: translateY(0) rotateX(0);
@@ -38,7 +39,7 @@
 }
 @keyframes show {
   from {
-    transform: translateY(-100%) rotateX(90deg);
+    transform: translateY(-100%) rotateX(180deg);
   }
   to {
     transform: translateY(0) rotateX(0);
@@ -55,7 +56,6 @@
 #header .header_wrap .header_img{
   float: left;
   height: 65px;
-
 }
 #header .header_wrap .header_nav{
   float: right;
